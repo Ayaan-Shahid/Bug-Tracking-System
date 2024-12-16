@@ -92,13 +92,12 @@ GEM
       rack-test (>= 0.6.3)
       regexp_parser (>= 1.5, < 3.0)
       xpath (~> 3.2)
-    carrierwave (2.1.1)
-      activemodel (>= 5.0.0)
-      activesupport (>= 5.0.0)
+    carrierwave (3.1.0)
+      activemodel (>= 6.0.0)
+      activesupport (>= 6.0.0)
       addressable (~> 2.6)
       image_processing (~> 1.1)
-      mimemagic (>= 0.3.0)
-      mini_mime (>= 0.1.3)
+      marcel (~> 1.0.0)
       ssrf_filter (~> 1.0)
     concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
@@ -136,7 +135,7 @@ GEM
       activesupport (>= 5.0.0)
     json (2.7.2)
     language_server-protocol (3.17.0.3)
-    logger (1.6.1)
+    logger (1.6.3)
     loofah (2.22.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.12.0)
@@ -147,12 +146,9 @@ GEM
       net-smtp
     marcel (1.0.4)
     matrix (0.4.2)
-    mimemagic (0.4.3)
-      nokogiri (~> 1)
-      rake
     mini_magick (4.13.2)
     mini_mime (1.1.5)
-    minitest (5.25.1)
+    minitest (5.25.4)
     msgpack (1.7.2)
     net-imap (0.4.16)
       date
@@ -164,7 +160,7 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.3)
-    nokogiri (1.16.7-x86_64-linux)
+    nokogiri (1.17.2-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
     parallel (1.26.3)
@@ -262,7 +258,7 @@ GEM
       ffi (~> 1.12)
       logger
     rubyzip (2.3.2)
-    securerandom (0.3.1)
+    securerandom (0.4.1)
     selenium-webdriver (4.24.0)
       base64 (~> 0.2)
       logger (~> 1.4)
@@ -283,7 +279,7 @@ GEM
       activesupport (>= 6.1)
       sprockets (>= 3.0.0)
     sqlite3 (2.0.4-x86_64-linux-gnu)
-    ssrf_filter (1.1.2)
+    ssrf_filter (1.2.0)
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
     stringio (3.1.1)
@@ -319,7 +315,7 @@ DEPENDENCIES
   bootsnap
   brakeman
   capybara
-  carrierwave (~> 2.1.0)
+  carrierwave (~> 3.1.0)
   debug
   devise
   importmap-rails

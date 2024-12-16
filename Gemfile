@@ -58,7 +58,7 @@ end
 
 gem "devise"
 
-gem "carrierwave", "~> 2.1.0"
+gem "carrierwave", "~> 3.1.0"
 gem "mini_magick"
 
 
